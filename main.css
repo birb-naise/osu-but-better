@@ -1,3 +1,4 @@
+@-moz-document domain("osu.ppy.sh") {
 /* background */
 .osu-layout--body::before,
 .osu-layout--body-community,
@@ -425,4 +426,5 @@ h6,
 
 .profile-detail__top-left-item:nth-child(3) > div:nth-child(1) > div:nth-child(1):after {
 	content: " (peppy points)";
+}
 }
