@@ -3,7 +3,8 @@
 .osu-layout--body::before,
 .osu-layout--body-community,
 .osu-layout--body-222-plain,
-.osu-layout--body-111-plain {
+.osu-layout--body-111-plain,
+.osu-layout--body, .osu-layout--body-landing {
 	background: url("/*[[backg]]*/") no-repeat fixed;
 	background-size: cover;
 }
@@ -30,6 +31,7 @@
 .update-streams-v2,
 .osu-page--download,                                        /*download*/
 .beatmap-scoreboard-table__body-row:nth-child(2n + 1),      /*beatmaps*/
+.beatmap-score-top__section,
 .beatmap-success-rate,
 .sort__item--active,
 .sort__item--button:hover,
@@ -84,6 +86,7 @@
 .search-result,
 .search-entry,
 .profile-header-extra,                                      /*profile*/
+.user-action-button--profile-page,
 .page-extra,
 .profile-cover-change-popup,
 .profile-header-extra__column--chart,
@@ -137,6 +140,7 @@ td,
 .bbcode-spoilerbox.js-spoilerbox--open .bbcode-spoilerbox__body,
 .beatmap-scoreboard-table__body-row--highlightable .beatmap-scoreboard-table__cell,
 .comments__content,                                         /*comments*/
+.comment,
 .comment-vote,
 .comment-editor__message,
 .comment-editor__footer,
@@ -149,6 +153,8 @@ td,
 .beatmap-discussion-new-float,
 .beatmap-discussion-new__footer,
 .beatmap-discussion-post--new-reply,
+.beatmap-discussion__top,
+.beatmap-discussion-vote,
 .beatmap-discussions__discussions,
 .simple-form--search-box,
 .forums,                                                    /*forums*/
@@ -165,6 +171,8 @@ td,
 .tournament__page,
 .tournament__countdown-timer,
 .profile-badges,                                            /*profile*/
+.profile-header,
+.profile-links,
 .profile-detail-bar,
 .beatmap-playcount__detail,
 .page-extra__recent-medals-box,
@@ -374,7 +382,8 @@ h6,
 }
 
 /* other (sorry unsorted) */
-.beatmap-discussions-chart__chart-area {
+.beatmap-discussions-chart__chart-area,
+.beatmap-discussions-chart__label-area {
 	fill: rgba(0, 0, 0, .7);
 }
 .beatmap-discussions__timeline-line,
@@ -404,7 +413,8 @@ h6,
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
-.header-v3--chat {
+.header-v3--chat,
+.page-extra-tabs-before {
 	visibility: hidden !important;
 }
 .footer {
